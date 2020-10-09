@@ -5,7 +5,7 @@ function breakOut(array, changeValue, stopValue){
   }
   array[i]=changeValue
 }
-return array 
+return array
 
 function keepGoing(array, changeValue, skipValue){
   for (var i=0, l=array.length; i<l; i++){
@@ -14,7 +14,7 @@ function keepGoing(array, changeValue, skipValue){
     }
     array[i]= changeValue
   }
-  return array 
+  return array
 }
 
 function findBy(array, findFn){
