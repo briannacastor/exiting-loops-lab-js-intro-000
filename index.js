@@ -1,6 +1,6 @@
 function breakOut(array, changeValue, stopValue) {
-  for (var i = 0, l = array.length; i < l ; i++) {
-    if (array[i] === stopValue){
+  for (var i = 0, l = array.length; i < l ; i++ ) {
+    if (array[i] === stopValue) {
       break
    }
    array[i] = changeValue
@@ -8,12 +8,12 @@ function breakOut(array, changeValue, stopValue) {
    return array
 }
 
-function keepGoing(array, changeValue, skipValue){
-  for (var i = 0, l = array.length; i < l ; i++){
-    if (array[i]===s kipValue) {
+function keepGoing(array, changeValue, skipValue) {
+  for (var i = 0, l = array.length; i < l ; i++) {
+    if (array[i]=== skipValue) {
       continue
     }
-    array[i]= changeValue
+    array[i] = changeValue
   }
   return array
 }
